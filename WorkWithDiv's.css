@@ -1,0 +1,88 @@
+body{
+    font-family: arial;
+    margin: 0;
+  }
+  
+  .caixa{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .caixaMenu{
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .titulo{
+    font-size: 25px;
+    padding-left: 15px;
+  }
+  
+  .social{
+    height: 30px;
+    border-radius: 1px;
+    margin: 3px;
+    padding-top: 25px;
+    padding-right: 15px;
+  }
+  
+  a{
+    height: 30px;
+  }
+  
+  .fundo{
+    background: url(background.jpg);
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .principal{
+    background:white;
+    text-align: center;
+    width: 800px;
+    margin: 50px;
+    padding-bottom: 75px;
+  }
+  
+  .mask{
+    height: 90px;
+    padding-top: 25px;
+  }
+  
+  .principalTitulo{
+    font-size: 22px;
+  }
+  
+  .texto{
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+  
+  .botao{
+    background: black;
+    color: yellow;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  

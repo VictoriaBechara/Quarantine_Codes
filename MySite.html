@@ -1,0 +1,88 @@
+<html>
+
+	<head>
+		<title> Victória Bechara </title>
+		<link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+
+    <div class="caixa1" id="sobre">
+      <div class="boxmenu">
+        <img src="logo.png" class="logo" onclick="aviso()">
+        <div class="menu">
+          <a href="#sobre" class="linkmenu"> Sobre Mim </a>
+          <a href="#habilidades" class="linkmenu"> Minhas Habilidades </a>
+          <a href="#contato" class="linkmenu"> Fale Comigo! </a>
+        </div>
+
+      </div>
+
+      <h1> Victória Bechara</h1>
+      <p> oi</p>
+
+      <img src="amo.jpg" class="perfil" onclick="dark()">
+    </div>
+
+    <div class="caixa2" id="habilidades">
+      <h2 class="titulohabilidades"> Minhas Habilidades</h2>
+
+      <div class="caixao">
+
+        <div class="habilidade">
+          <img src="frontend.png" class="front">
+          <h3> Front-End </h3>
+          <p class="corpo"> Eu programo sites do zero, e levo ideias <br> do papel para o navegador <br> preocupada com a entrega final</p> 
+          <b class="subtitulo"> Linguagens: </b>
+          <p class="corpo"> HTML, CSS, JavaScript </p>
+          <b class="subtitulo"> Ferramentas: </b>
+          <p class="corpo"> React </p>
+          <p class="corpo"> Redux </p>
+          <p class="corpo"> SASS </p>
+        </div>
+
+        <div class="habilidade">
+          <img src="backend.png" class="back">
+
+          <h3> Back-End </h3>
+          <p class="corpo"> Desenvolvo sistemas para dar suporte <br> aos produtos WEB, crio APIs e tenho boa<br> experiência com banco de dados</p> 
+          <b class="subtitulo"> Tecnologias: </b>
+          <p class="corpo"> Node.Js, REST, SQL </p>
+          <b class="subtitulo"> Ferramentas: </b>
+          <p class="corpo"> Express </p>
+          <p class="corpo"> Postgres </p>
+          <p class="corpo"> Sequelize </p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="caixa3" id="contato">
+
+      <h2 class="titulocontato"> Me manda uma mensagem :)</h2>
+
+      <a href="tel:+5517996511688" class="zap"> Whatsapp </a>
+
+      <p class="fim"> Ou então fala comigo pelo
+        <a href="https://www.linkedin.com/in/victoria-bechara-4170b61b0/" class="linkfinal" > Linkedin</a>
+         ou 
+        <a href="https://www.facebook.com/vitoria.bechara.5?ref=bookmarks" class="linkfinal"> Facebook </a>
+      </p>
+    </div>
+
+  <script>
+    //Alerta no inicio 
+    alert("Você está prestes a entrar no meu site...")
+    function dark(){
+      document.body.style.background = "#333333";
+      document.body.style.color = "#FFFFFF";
+      document.getElementsByClassName("linkmenu").color = "#FFFFFF";
+    }
+    //Ao clicar na logo
+    function aviso(){
+      alert("Esse site possui modo Dark uuuuuuu!! Pra ativar basta apertar na imagem central.")
+    }
+  </script>
+
+	</body>
+</html>
